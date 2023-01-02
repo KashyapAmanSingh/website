@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image:
+    url(https://3.bp.blogspot.com/-tFGHPvhK9WA/WUXcUZcrZRI/AAAAAAAAFlo/-5BjWWouG60BOPDvleC7JQoZJf2906_AACHMYBhgL/s1600/25-free-website-backgrounds-the-hostbaby-blog.jpg); */
+  background-color: #2d3436;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.nav {
+  /* background-color: cornflowerblue; */
+  opacity: 0.5;
+  font-size: larger;
+  display: flex;
+  justify-content: flex-end;
+ background: none;
+  height: 7%;
+  padding: 0.5%;
+  text-align: center;
+  float: right;
+  width: 100%;
+
+}
+
+
+ /* .bod {background: none;
+   width: 30%;
+   background: none;
+   background-color: rgba(254, 254, 254, 0);
+   opacity: 0.00px;
+   margin-top: 29px;
+  text-align: center;  border: 2px solid red; 
+width: 600px;padding-left: 4%;
+padding-right: 4%;
+margin-left: 7%;
+margin-top: 0px;}  */
+
+
+ .container2{     border: 2px solid red;}
+
+
+.point {
+  color: rgb(238, 255, 0, 1);
+}
+
+.nv {
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+  /* border: 2px solid red; */
+  /* background-color: aqua; */
+  margin-right: 2%;
+  height: 5%;
+  text-decoration: none;
+  padding: 0.5%;
+}
+
+.ev {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  border-width: auto;
+  margin-right: 55%;
+  padding-left: 22px;
+  padding-right: 1%;
+
+  font-weight: bolder;
+  font-size: 60px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
