@@ -7,11 +7,14 @@
 
 }
 
-body { font-family: montserrat ;
+body {
+  background-color: #ff0d00;
+  background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  font-family: montserrat;
+background-size: cover;
 
 
-
-} 
+}
 
 .nav {
 
@@ -58,7 +61,8 @@ body { font-family: montserrat ;
 
 
 
-a.active,a:hover {
+a.active,
+a:hover {
   border: 1px solid white;
   transition: .5s;
 
@@ -73,7 +77,7 @@ a.active,a:hover {
   margin-right: 40px;
   cursor: pointer;
   display: none;
-  margin: right 40px; 
+  margin: right 40px;
 
 
 }
@@ -102,28 +106,42 @@ a.active,a:hover {
 
   .nav ul {
     position: fixed;
- width: 100%;
- height: 100vh;
- background: #2f3640;
- top: 80px;
- left: -100%;
- text-align: center;    
- transition: all 0.5s;        
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .nav li {
+    display: block;
+    margin: 50px 0px;
+    line-height: 30px;
+  }
+
+  .nav a {
+    font-size: 20px;
+  }
+
+  a.active,
+  a:hover {
+    border: none;
+    color: #3498db;
+  }
+
+  nav ul.show {
+    left: 0
+  }
+
+  ;
+
 }
 
-.nav li{display: block;
-margin: 50px 0px ;
-line-height: 30px;}
-
-.nav a{font-size: 20px;}
-a.active,a:hover {border: none; color: #3498db; }
-
- nav ul.show{left:0}; 
-
-}
-
+/* 
  section{
             background: url("https://wallpaperaccess.com/full/187161.jpg"); 
             background-size: cover;
-            height: calc(100vh - 80px);
-}
+            height: 100%;
+} */
