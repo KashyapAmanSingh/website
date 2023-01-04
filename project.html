@@ -6,46 +6,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website-Portfolio</title>
-   
-<link rel="stylesheet" type="text/css" href="project.css">
-  <!-- hussain -->
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <!-- hussain -->
 
-  <!-- //online link for font awesome good and large number of content -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- //online link for font awesome good and large number of content -->
 
-<script src="https://kit.fontawesome.com/a076d05399.js" ></script>
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script>
-    $(document).ready(function(){$('#icon').click(function(){$('ul').toggleClass('show');})})
-</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- plugin FOR TYPED.JS -->
+    <script src="https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js"></script>
+
+
+    <!-- FONT AWESOME AND J QUERY plugin -->
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () { $('#icon').click(function () { $('ul').toggleClass('show'); }) })
+    </script>
 
 </head>
 
-<body>  
-    
- <nav class="nav">  
- <label  class="logo"> <i class="fa-solid fa-life-ring"   style=" color: rgb(56, 8, 8); padding-right: 9px;"  ></i>Evolution<span style="color: coral;">.</span> </label>
- <ul>
-    <li><a href="#"  class="active"><i class="fa fa-home"></i>Home</a></li>
-    <li><a href="#"><i class="fa-solid fa-address-card"  style=" padding-right: 7px;"></i></i>About</a></li>
-    <li><a href="#"><i class="fa fa-user" style="padding-right: 9px;"   ></i></i>Services</a></li>
-    <li><a href="#" ><i class="fa-solid fa-address-book" style="padding-right: 9px;"></i>    </i>Contact</a></li>
- </ul>
-      <label id="icon"> <i  class="fas fa-bars"   style="color: aqua;"></i></label>      
-</nav>
+<body>
 
-<section>
+    <nav class="nav">
+        <label class="logo"> <i class="fa-solid fa-life-ring"
+                style=" color: rgb(56, 8, 8); padding-right: 9px;"></i>Evolution<span style="color: coral;">.</span>
+        </label>
+        <ul>
+            <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-card" style=" padding-right: 7px;"></i></i>About</a></li>
+            <li><a href="#"><i class="fa fa-user" style="padding-right: 9px;"></i></i>Services</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-book" style="padding-right: 9px;"></i> </i>Contact</a></li>
+        </ul>
+        <label id="icon"> <i class="fas fa-bars" style="color: aqua;"></i></label>
+    </nav>
+
+
+    <section>
+        <div class="text">
+            <h3>Hi, There ! </h3>
+            <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+            <!-- CODE for type.js TYPING Effects             -->
+            <div id="typed-string">
+                <h1>I Am <span id="typed"> <span style="color: white;">'</span>Kashyap Aman Singh<span
+                            style="color: white;">'</span> </span></h1>
+
+
+            </div>
+            <script>
+                var type = new Typed('#typed',
+                    {
+                        strings: [' A Designer', '', ' A Designer', ' ', 'A You Tuber'],
+
+                        typeSpeed: 70,
+                        backSpeed: 60,
+                        loop: true
+
+                    });
+
+            </script>
+
+
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat tempora omnis doloribus
+                porro veritatis adipisci quasi quo modi cum.</p>
+            <div class="soci">
+
+                <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                <a href="#"> <i class="fa-brands fa-facebook-messenger"></i> </a>
+                <a href="#"> <i class="fa-brands fa-square-instagram"></i> </a>
+                <a href="#"> <i class="fa-brands fa-square-twitter"></i> </a>
+                <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+            </div>
+            <button class="btn" type="button"> More About Me </button>
+        </div>
+
+        <div class="copyright">
+            <p>copyright reserved</p>
+        </div>
+    </section>
+
+
+
    
-</section>
+    <div id='particles-js'> </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="typed.js"></script>
 
-
-
-
-<div id='particles-js'  > </div>
-          <script src="particles.js"></script>
-          <script src="app.js"></script>  
-    </body>
+</body>
 </html>

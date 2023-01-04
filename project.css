@@ -8,10 +8,10 @@
 }
 
 body {
-  background-color: #ff0d00;
-  background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  background-color: #000000;
+  /* background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80); */
   font-family: montserrat;
-background-size: cover;
+  background-size: cover;
 
 
 }
@@ -145,3 +145,118 @@ a:hover {
             background-size: cover;
             height: 100%;
 } */
+
+/* #particles-js{z-index: 10000000;} */
+
+section {
+  position: absolute;
+
+  padding-top: 190px;
+  border: 3px solid red;
+  /* margin-top: 0px;
+  width: 20%; */
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+.text h1 {
+  color: white;
+  font-size:
+    47px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0px 20px;
+
+}
+
+span {
+  color: #2ecc71;
+}
+
+.text h3 {
+  color: #eee;
+  font-weight: 400;
+  font-size: 17px;
+
+
+}
+
+
+.text p {
+  width: 440px;
+  max-width: 100%;
+  color: #eee;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.soci a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 20px;
+  /* rgba(255,255,255.0.1) */
+  background-color: rgba(102, 51, 153, 0.456);
+  margin-bottom: 35px;
+
+
+}
+
+.soci a:hover {
+  transform: scale(1.1);
+  background: #2ecc71;
+  transition: .5s;
+}
+
+.text .btn {
+
+  color: #eee;
+  background: #2ecc71;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 8px 30px;
+  border: 2px solid #2ecc71;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
+  transition: .5s;
+
+
+}
+
+.copyright {
+  margin-top: 243px;
+  padding: bottom 40px;
+  ;
+  border: 2px solid red;
+
+}
+
+.copyright p {
+  color: #eee;
+  font-size: 15px;
+
+}
+
+
+
+/* #particles-js {
+  position: absolute;
+  z-index: -1;
+}  */
