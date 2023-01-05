@@ -9,13 +9,39 @@
 
 body {
   background-color: #000000;
+  /* background: url("https://wallpaperaccess.com/full/187161.jpg"); */
   /* background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80); */
   font-family: montserrat;
   background-size: cover;
-
-
 }
 
+ .img{
+  float: right;
+   margin-left: 40%;
+}
+
+
+
+.image {
+  float: right;
+  height: 583px;
+  width: 577px; 
+  display: flex;
+  flex-wrap: wrap; 
+ margin-left: 40px; 
+position: absolute;
+z-index: 100;
+}
+/* #sec{ height: auto; width: auto;
+border: auto;
+  float: right;
+   margin-left: 40%;
+  margin-top: 0px;
+  padding-top: 22px;
+  padding-left: 0px;
+
+
+/* padding-left: 0px; */
 .nav {
 
   height: 80px;
@@ -141,7 +167,7 @@ a:hover {
 
 /* 
  section{
-            background: url("https://wallpaperaccess.com/full/187161.jpg"); 
+            
             background-size: cover;
             height: 100%;
 } */
@@ -150,9 +176,9 @@ a:hover {
 
 section {
   position: absolute;
-
-  padding-top: 190px;
-  border: 3px solid red;
+  margin-left: 12%;
+  padding-top: 7%;
+  /* border: 3px solid red; */
   /* margin-top: 0px;
   width: 20%; */
 }
@@ -190,7 +216,7 @@ span {
   color: #eee;
   font-size: 15px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .soci a {
@@ -241,10 +267,10 @@ span {
 }
 
 .copyright {
-  margin-top: 243px;
+  margin-top: 50px;
   padding: bottom 40px;
   ;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 
@@ -256,7 +282,7 @@ span {
 
 
 
-/* #particles-js {
+ /* #particles-js {
   position: absolute;
-  z-index: -1;
-}  */
+  z-index: auto;
+}   */
