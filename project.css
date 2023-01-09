@@ -396,6 +396,8 @@ span {
   margin-top: 75%;;
   margin-bottom: 30px;
   border: 2px solid salmon;
+  position: relative;
+top: 90px; left: 40px;
 }
 
 
@@ -403,7 +405,7 @@ span {
 
 .skill {
   display: flex;
-  width: 100;
+  /* width: 100; */
 }
 
 
@@ -417,7 +419,13 @@ span {
   flex-basis: 33%;
   /* width: 399%; */
   flex-wrap: wrap;
+
+  width: 33%;
 }
+
+.front{width: 33%;}
+.BackEnd{width: 33%;}
+
 
 .read {
   border-radius: 10%;
