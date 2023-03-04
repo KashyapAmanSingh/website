@@ -9,8 +9,8 @@
 
 body {
   background-color: #34495e;
-  /* background-image: url(https://3.bp.blogspot.com/-tFGHPvhK9WA/WUXcUZcrZRI/AAAAAAAAFlo/-5BjWWouG60BOPDvleC7JQoZJf2906_AACHMYBhgL/s1600/25-free-website-backgrounds-the-hostbaby-blog.jpg); */
-  background-repeat: no-repeat;
+
+  background-image: url(wall.jpeg);
   background-size: cover;
   /* background: url("https://wallpaperaccess.com/full/187161.jpg"); */
   /* background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80); */
@@ -143,6 +143,8 @@ a:hover {
     left: -100%;
     text-align: center;
     transition: all 0.5s;
+    z-index: 1000;
+    background-color: black;
   }
 
   .nav li {
@@ -176,7 +178,7 @@ a:hover {
             height: 100%;
 } */
 
-/* #particles-js{z-index: 10000000;} */
+#particles-js{z-index: 100;}
 
 section {
   position: absolute;
@@ -296,23 +298,20 @@ span {
 }   */
 
 .about {
-  /* border: 2px solid rgb(0, 255, 242); */
-  /* margin-top: 900px; */
-  /* margin-bottom: 20px; */
+  border: 2px solid rgb(0, 255, 242);
+  margin-top: 900px;
+  margin-bottom: 20px;
   color: #2ecc71;
   position: absolute;
-  /* left: 10%;
-  right: 10%; */
   /* bottom: 100px; */
   /* top: 110%; */
-  padding-bottom: 10%;
-   margin-top: 113vh;
-   margin-left: 75vh;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-left: 0%;
   text-align: center;
   padding-top: 5px;
-  height: 150%;
-
-
+  height: 100vh;
+ 
 }
 
 /* .title ,.aboutme{  */
